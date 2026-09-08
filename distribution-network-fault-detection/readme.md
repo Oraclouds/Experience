@@ -24,17 +24,20 @@ Power Systems) 搭建了一个辐射状配电网模型，模拟单相接地故�
 - 故障切除后，系统电压/电流经短暂振荡后恢复至稳态
 
 ## 波形展示
+*前0.1s为变压器合闸励磁涌流暂态，0.15s处尖峰为单相接地故障响应，故障切除后迅速衰减至零。*
+
 ### 母线电压，故障前后波形对比
-![母线电压波形](./results/V_bus.jpg)
+![母线电压波形](./results/V_bus.png)
 
 ### 馈线电流，故障期间电流突增
-![馈线电流波形](./results/I_feeder.jpg)
+![馈线电流波形](./results/I_feeder.png)
 
 ### 母线电流，与馈线电流趋势一致
-![母线电流波形](./results/I_bus.jpg)
+![母线电流波形](./results/I_bus.png)
 
 ### 零序电流，含合闸暂态与故障响应
-![零序电流波形](./results/I0_feeder.jpg)
+![零序电流波形](./results/I0_feeder.png)
+
 
 ## 技术栈
 MATLAB R2025b · Simulink · Simscape Electrical (Specialized Power Systems)
